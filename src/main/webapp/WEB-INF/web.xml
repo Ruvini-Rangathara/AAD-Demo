@@ -9,10 +9,37 @@
         <url-pattern>/test</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>Customer</servlet-name>
+        <url-pattern>/cust</url-pattern>
+    </servlet-mapping>
+
+
     <servlet>
         <servlet-name>TestTask</servlet-name>
         <servlet-class>com.example.demo1ee.TestTask</servlet-class>
 
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Lakshan</param-value>
+        </init-param>
+        <init-param>
+            <param-name>city</param-name>
+            <param-value>Alubomulla</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Customer</servlet-name>
+        <servlet-class>com.example.demo1ee.Customer</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Ruvini</param-value>
+        </init-param>
+        <init-param>
+            <param-name>city</param-name>
+            <param-value>Panadura</param-value>
+        </init-param>
     </servlet>
 
 </web-app>

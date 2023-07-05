@@ -7,10 +7,10 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-public class TestTask extends HttpServlet {
+public class Customer extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("Do get...");
+        System.out.println("Dop get...");
     }
 
     @Override
@@ -20,5 +20,4 @@ public class TestTask extends HttpServlet {
         System.out.println(name);
         System.out.println(city);
     }
-
 }
