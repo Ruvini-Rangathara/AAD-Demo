@@ -14,6 +14,18 @@
         <url-pattern>/cust</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>MappingSpec</servlet-name>
+        <url-pattern>/map</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>MappingSpec</servlet-name>
+        <servlet-class>com.example.demo1ee.MappingSpec</servlet-class>
+    </servlet>
 
     <servlet>
         <servlet-name>TestTask</servlet-name>
