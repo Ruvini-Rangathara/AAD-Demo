@@ -10,6 +10,7 @@ import java.io.IOException;
 public class MappingSpec extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("\n----------------------------------------------------------------------\n");
         System.out.println("Mapping Spec");
         System.out.println("Context Path : "+req.getContextPath());
         System.out.println("Servlet Path : "+req.getServletPath());
@@ -28,6 +29,8 @@ public class MappingSpec extends HttpServlet {
         System.out.println("Local Port : "+req.getLocalPort());
         System.out.println("Get Method : "+req.getMethod());
 
+        System.out.println("Path 1 : "+req.getServletContext().getContextPath());
+        System.out.println("Path 2 : "+req.getServletContext().getRealPath("map"));
     }
 
 }

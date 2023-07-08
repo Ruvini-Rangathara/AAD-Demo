@@ -54,6 +54,19 @@
         </init-param>
     </servlet>
 
+    <servlet>
+        <servlet-name>Student</servlet-name>
+        <servlet-class>com.example.demo1ee.Student</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Student</servlet-name>
+        <url-pattern>/task</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
 
 
