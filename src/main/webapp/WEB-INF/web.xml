@@ -57,7 +57,6 @@
     <servlet>
         <servlet-name>Student</servlet-name>
         <servlet-class>com.example.demo1ee.Student</servlet-class>
-
     </servlet>
 
     <servlet-mapping>
@@ -66,6 +65,15 @@
     </servlet-mapping>
 
 
+    <servlet>
+        <servlet-name>JsonTypeHandle</servlet-name>
+        <servlet-class>com.example.demo1ee.JsonTypeHandle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonTypeHandle</servlet-name>
+        <url-pattern>/json</url-pattern>
+    </servlet-mapping>
 
 </web-app>
 
