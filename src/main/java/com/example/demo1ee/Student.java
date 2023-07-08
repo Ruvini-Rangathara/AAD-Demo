@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Student extends HttpServlet {
 
@@ -23,6 +24,7 @@ public class Student extends HttpServlet {
 
         StudentTo studentTo = new StudentTo(this.name, this.city, this.email);
         studentModel.save(studentTo);
+
     }
 
 }
