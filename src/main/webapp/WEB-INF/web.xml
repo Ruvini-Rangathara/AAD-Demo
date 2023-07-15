@@ -75,6 +75,17 @@
         <url-pattern>/json</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>JsonDataManipulate</servlet-name>
+        <servlet-class>com.example.demo1ee.JsonDataManipulate</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonDataManipulate</servlet-name>
+        <url-pattern>/jsonData</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
 
